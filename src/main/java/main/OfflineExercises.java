@@ -30,7 +30,7 @@ public class OfflineExercises {
 	public String getBert(String input) {
 		for (int i = 0;i < input.length();i++){
 			if(input.contains("bert")) {
-				return input.substring("bert", "bert");
+				//return input.substring("bert", "bert");
 			}
 		}
 		return "";
